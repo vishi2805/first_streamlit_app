@@ -9,3 +9,7 @@ streamlit.text('\U0001F414 Hard-Boiled Free-Range Egg')
 streamlit.text('\U0001F951 \U0001F35E Avcado Toast')
 
 streamlit.header('\U0001F34C \U0001F96D	Build Your Own Fruit Smoothie \U0001F95D \U0001F347')
+
+import pandas
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
