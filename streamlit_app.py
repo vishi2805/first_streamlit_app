@@ -1,5 +1,5 @@
 import streamlit
-import imoji
+pip install imoji
 
 streamlit.title('My Parents New Healthy Diner')
 
